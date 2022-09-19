@@ -1,0 +1,47 @@
+{
+  "name": "@rick-chou/ngx-monaco-editor",
+  "version": "14.0.0",
+  "private": false,
+  "description": "Monaco Code Editor for Angular",
+  "keywords": [
+    "angular",
+    "angular 2+",
+    "angular 2",
+    "angular 4",
+    "angular 5",
+    "angular 6",
+    "angular 7",
+    "angular 8",
+    "angular 9",
+    "angular 10",
+    "angular 12",
+    "angular 13",
+    "angular 14",
+    "monaco",
+    "monaco-editor",
+    "code",
+    "editor",
+    "reusable",
+    "component"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rick-chou/ngx-monaco-editor"
+  },
+  "bugs": {
+    "url": "https://github.com/rick-chou/ngx-monaco-editor/issues"
+  },
+  "license": "MIT",
+  "contributors": [
+    "Atul Kumar <atulaggarwal4288@gmail.com>",
+    "Rick Zhou <rickzhou209@gmail.com>"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^14.0.0",
+    "@angular/core": "^14.0.0",
+    "monaco-editor": "^0.34.0"
+  },
+  "dependencies": {
+    "tslib": "^2.4.0"
+  }
+}
