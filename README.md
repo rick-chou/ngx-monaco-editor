@@ -1,4 +1,6 @@
-> It seems that the original author no longer maintains this project, so I made some changes on the basis of the original version, its usage is the same as the original, I just upgraded some dependencies in the project and ensured the availability in higher versions of angular , and I will continue to maintain this project for a long time, and finally thank the original author Atul Kumar
+> It seems that the original author no longer maintains this project, so I made some changes on the basis of the original version, its usage is the same as the original, I just upgraded some dependencies in the project and ensured the availability in higher versions of angular , and I will continue to maintain this project for a long time
+
+> Finally thank the original author Atul Kumar
 
 # Monaco Editor Component for Angular 2 and above.
 
@@ -23,8 +25,8 @@ Supports all the options available in monaco-editor [Monaco Editor Options](http
 
 Install from npm repository:
 ```
-npm install monaco-editor ngx-monaco-editor --save
- ```
+npm install monaco-editor @rick-chou/ngx-monaco-editor --save
+```
  
 For angular version 6 use v6.x.x
 ```
@@ -72,7 +74,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { MonacoEditorModule } from 'ngx-monaco-editor';
+import { MonacoEditorModule } from '@rick-chou/ngx-monaco-editor';
 
 @NgModule({
   declarations: [
@@ -114,7 +116,7 @@ Include diff-editor in html with options.(eg: app.component.html)
 ```
 ```typescript
 import { Component } from '@angular/core';
-import { DiffEditorModel } from 'ngx-monaco-editor';
+import { DiffEditorModel } from '@rick-chou/ngx-monaco-editor';
 
 @Component({
   selector: 'app-root',
@@ -181,7 +183,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { MonacoEditorModule, NgxMonacoEditorConfig } from 'ngx-monaco-editor';
+import { MonacoEditorModule, NgxMonacoEditorConfig } from '@rick-chou/ngx-monaco-editor';
 import { AppComponent } from './app.component';
 
 const monacoConfig: NgxMonacoEditorConfig = {
@@ -213,7 +215,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { MonacoEditorModule, NgxMonacoEditorConfig } from 'ngx-monaco-editor';
+import { MonacoEditorModule, NgxMonacoEditorConfig } from '@rick-chou/ngx-monaco-editor';
 import { AppComponent } from './app.component';
 
 export function onMonacoLoad() {
@@ -303,8 +305,7 @@ export class AppComponent {
 ```
 
 ## Links
-[Monaco Editor](https://github.com/Microsoft/monaco-editor/)<br/>
-[Monaco Editor Options](https://microsoft.github.io/monaco-editor/api/interfaces/monaco.editor.ieditorconstructionoptions.html)
+[Monaco Editor](https://github.com/microsoft/monaco-editor)
 
 ## License
 
