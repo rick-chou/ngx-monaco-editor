@@ -25,7 +25,7 @@ Supports all the options available in monaco-editor [Monaco Editor Options](http
 
 Install from npm repository:
 ```
-npm install monaco-editor @rick-chou/ngx-monaco-editor --save
+npm install monaco-editor @rickzhou/ngx-monaco-editor --save
 ```
  
 For angular version 6 use v6.x.x
@@ -74,7 +74,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { MonacoEditorModule } from '@rick-chou/ngx-monaco-editor';
+import { MonacoEditorModule } from '@rickzhou/ngx-monaco-editor';
 
 @NgModule({
   declarations: [
@@ -116,7 +116,7 @@ Include diff-editor in html with options.(eg: app.component.html)
 ```
 ```typescript
 import { Component } from '@angular/core';
-import { DiffEditorModel } from '@rick-chou/ngx-monaco-editor';
+import { DiffEditorModel } from '@rickzhou/ngx-monaco-editor';
 
 @Component({
   selector: 'app-root',
@@ -183,7 +183,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { MonacoEditorModule, NgxMonacoEditorConfig } from '@rick-chou/ngx-monaco-editor';
+import { MonacoEditorModule, NgxMonacoEditorConfig } from '@rickzhou/ngx-monaco-editor';
 import { AppComponent } from './app.component';
 
 const monacoConfig: NgxMonacoEditorConfig = {
@@ -215,7 +215,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { MonacoEditorModule, NgxMonacoEditorConfig } from '@rick-chou/ngx-monaco-editor';
+import { MonacoEditorModule, NgxMonacoEditorConfig } from '@rickzhou/ngx-monaco-editor';
 import { AppComponent } from './app.component';
 
 export function onMonacoLoad() {
